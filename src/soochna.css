@@ -1,0 +1,22 @@
+.info{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1400px;
+  margin: auto;
+  text-align: center;
+  height: 300px;
+
+}
+.img{
+  height: 90px;
+}
+.temp{
+  padding:20px;
+}
+.temp1{
+  padding:32px;
+}
+.heady{
+  color:blue;
+}

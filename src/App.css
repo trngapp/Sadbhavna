@@ -9,6 +9,10 @@ body{
   align-items: center;
   margin-bottom: 20px;
   justify-content: space-between;
+  overflow: hidden;
+  background-color :white;
+  padding: 20px 10px;
+  border-radius: 8px;
 
 }
 .app_stats{
@@ -32,3 +36,120 @@ body{
 .player{
   margin: 80px;
 }
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.update{
+  font-family: "Times New Roman", Times, serif;
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 80px;
+  margin-left: 80px;
+
+
+  font-size: 150%;
+
+}
+.slider{
+  width: 100%;
+  height: auto;
+
+}
+.playerh{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.butt {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+h2{
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+}
+.regularcard{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1300px;
+  margin: auto;
+  background-color: azure;
+}
+.logo{
+  width: 300px;
+height: 100px;
+padding: 10px;
+cursor: pointer;
+
+}
+.test{
+  border-radius: 40px;
+}
+.pdf{
+  margin: auto;
+  padding: 100px;
+}
+.pdf2{
+  margin: auto;
+  padding: 30px;
+}
+h4{
+  color: blue;
+  margin: auto;
+  text-align: center;
+
+}
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+

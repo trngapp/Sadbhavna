@@ -20,7 +20,7 @@ code {
 .image{
   padding: auto;
   margin: 40px;
-  width: 500px;
+  width: 300px;
   height: auto;
 }
 .things{
@@ -29,7 +29,10 @@ code {
 
 }
 .inform{
+  padding:100px;
   display: flex;
 flex-direction: column;
 justify-content: space-around;
+width:400px;
+height:auto;
 }
